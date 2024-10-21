@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>servlet</title>
+<style>
+        body{
+            background-image: url(https://wallpapercave.com/wp/wp9764009.jpg);
+        }
+     h1{
+        color: white;
+        background: transparent;
+        text-align: center;
+     }
+     div{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+     }
+button{
+    
+    border: solid;
+    color: white;
+    background: transparent;
+    width: 200px;
+}
+    </style>
+</head>
+<body>
+ <form action="DemoServlet" method="post">
+        <h1>REGISTRATION</h1>
+        <div>USERNAME:
+            <input type="text" name=name required placeholder="Enter the name">
+        </div>
+        <br>
+        <div>MOBILE:
+            <input type="text" name=mob required placeholder="Enter the mobile number">
+        </div>
+        <br>
+        <div>EMAIL:
+            <input type="email" name=email required placeholder="Enter the email">
+        </div>
+        <br>
+        <div>ADDRESS:
+            <input type="text" name=add required placeholder="Enter the Address">
+        </div>
+        <br>
+        <div>PASSWORD:
+	  <input type="password" name=password required >
+	        </div>
+        <br>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+         <br>
+        <div>
+            If already registered then <a href="login.html" >Login</a>
+        </div>
+    </form>
+</body>
+</html>
